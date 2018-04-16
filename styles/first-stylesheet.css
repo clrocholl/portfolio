@@ -65,7 +65,7 @@ ul.breadcrumb li {
 }
 ul.breadcrumb li+li:before {
     padding: 0;
-    color: black;
+    color: gray;
     content: "/\00a0";
 }
 ul.breadcrumb li a {
