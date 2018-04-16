@@ -1,6 +1,4 @@
 @charset "UTF-8";
-
-
 html, body {
   background: #22264b; /* purple */; 
   margin: 0;
@@ -56,6 +54,23 @@ aside {
   background:#b56969;
   color: #e8edf3;
   margin-bottom: 1em;
+}
+ul.breadcrumb{
+  padding: 0;
+  list-style: none;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: .8em;
+}
+ul.breadcrumb li+li:before {
+    padding: 0;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
 }
 strong {
   font: 1em Verdana, Geneva, sans-serif;
