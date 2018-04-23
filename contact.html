@@ -1,59 +1,51 @@
 <!doctype html>
-<html lang="en">
+<html lang="zxx">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
-    <title>Claudia's Portfolio Page</title>
-  </head>
-  <body>
-    <header>
-      <ul class="breadcrumb">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  <title>Contact | Claudia Rocholl</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
         <li><a href="index.html">Home</a></li>
-        <li>Contact</li>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
       </ul>
-      <aside>HTML &amp; CSS</aside>
-      <h1>Contact</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi. Pellentesque metus urna, ornare id odio quis, accumsan tempus velit.
-      </p>
-      <nav>
-        <ul>
-          <li><a href="index.html" title="Home page">Home</a></li>
-          <li><a href="about-me.html" title="Read about me!">About Me</a></li>
-          <li><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <h2> 
-        Message Me
-      </h2>
-      <p>
-        <strong>Name:</strong><br>
-        <input type="text" name="Name">
-        <br>
-        <strong>Email:</strong><br>
-        <input type="text" name="Email">
-        <br>
-        <strong>Message:</strong><br>
-        <textarea rows="6" cols="50"></textarea>
-        <br>
-      </p>
-      <button>
-      Submit 
-      </button>
-    </section>
-    <section id= "section-right">
-      <h3> Connect With Me </h3> 
-        <a href="https://github.com/clrocholl">GitHub</a>
-        <a href="https://www.linkedin.com/in/claudiarocholl/">LinkedIn</a>
-    </section>
-    <footer>
-      <p>
-        all content &copy;copyright 2018 Claudia Gomez-Rocholl
-      </p>
-    </footer>
-  </body>
+    </nav>
+    <h1>Contact</h1>
+  </header>
+  <section>
+    <h2>Message Me
+    </h2>
+    <p>
+      <strong>Name:</strong><br>
+      <input type="text" name="Name">
+      <br>
+      <strong>Email:</strong><br>
+      <input type="text" name="Email">
+      <br>
+      <strong>Message:</strong><br>
+      <textarea rows="6" cols="50"></textarea>
+      <br>
+    </p>
+    <div class="button">
+      <button>Submit</button>
+    </div>
+  </section>
+  <footer>
+    <div class="social">
+      <a class="github" href="https://github.com/clrocholl" target="_blank"><i class="fa fa-github"></i></a>
+      <a class="linkedin" href="https://www.linkedin.com/in/claudiarocholl/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>all content &copy;copyright 2018 Claudia Rocholl • Web Development</p>
+  </footer>
+</body>
 </html>

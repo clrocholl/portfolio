@@ -1,46 +1,63 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
-    <title>Claudia's Portfolio Page</title>
-  </head>
-  <body>
-    <header>
-      <ul class="breadcrumb">
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  <title>Projects | Claudia Rocholl</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
         <li><a href="index.html">Home</a></li>
-        <li>Portfolio</li>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a class="active" href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
-      <aside>HTML &amp; CSS</aside>
-      <h1>Portfolio</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi. Pellentesque metus urna, ornare id odio quis, accumsan tempus velit.
-      </p>
-    </header>
-    <article>
-      <h2> 
-        My Projects
-      </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi. Pellentesque metus urna, ornare id odio quis, accumsan tempus velit.
-      </p>
-    </article>
-    <section>
-      <h3>Project 1: Travel Bucket List</h3>
-      <p>Here's the link to my Travel Bucket List website: <a href="https://clrocholl.github.io/homework1/" title="Project 1">Project 1</a>.</p>
+    </nav>
+    <h1>Projects</h1>
+  </header>
+  <article>
+    <h2>HTML &amp; CSS Projects</h2>
+    <p>
+      Project ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi. Pellentesque metus urna, ornare id odio quis, accumsan tempus velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi. Pellentesque metus urna, ornare id odio quis, accumsan tempus velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi. Pellentesque metus urna, ornare id odio quis, accumsan tempus velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi. Pellentesque metus urna, ornare id odio quis, accumsan tempus velit.
+    </p>
+  </article>
+  <main class="container">
+    <section class="box">
+      <h3>HTML Markup</h3>
+      <a href="https://clrocholl.github.io/homework1/" title="Travel buckelist minimalist html markup"><img class="thumbnail" src="images/travel-bucketlist.PNG" alt="Travel Bucket List"></a>
+      <p>Image ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi.</p>
     </section>
-    <section>
-      <h3>Project 2: Name</h3>
-      <p>Praesent mollis, ex non tempus tempor, enim quam interdum turpis, non viverra felis nunc ac tellus.</p>
+    <section class="box">
+      <h3>Mockup to HTML &amp; CSS</h3>
+      <a href="https://clrocholl.github.io/mockup-practice/" title="Project 2"><img src="images/cat-rental.PNG" title="cat rental mockup replication" alt="Kitties To Go! Cat Rental"></a>
+      <p>Image ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi.</p>
     </section>
-    <section>
-      <h3>Project 3: Name</h3>
-      <p>Praesent mollis, ex non tempus tempor, enim quam interdum turpis, non viverra felis nunc ac tellus.</p>
+    <section class="box">
+      <h3>Project ABC</h3>
+      <a href="#"><img src="images/under-construction.png" title="under construction" alt="under construction"></a>
+      <p>Image ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi.</p>
     </section>
-    <footer>
-      <p>all content &copy;copyright 2018 Claudia Gomez-Rocholl</p>
-    </footer>
-  </body>
+    <section class="box">
+      <h3>Project XYZ</h3>
+      <a href="#"><img src="images/under-construction.png" title="under construction" alt="under construction"></a>
+      <p>Image ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed dolor diam. Donec sed ultricies nisi.</p>
+    </section>
+  </main>
+  <footer>
+    <div class="social">
+      <a class="github" href="https://github.com/clrocholl" target="_blank"><i class="fa fa-github"></i></a>
+      <a class="linkedin" href="https://www.linkedin.com/in/claudiarocholl/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>all content &copy;copyright 2018 Claudia Rocholl • Web Development</p>
+  </footer>
+</body>
+
 </html>
