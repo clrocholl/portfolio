@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 1em;
+  margin: 1%;
   background-color: #fff;
   color: #1e2b31;
   font-family: 'Roboto', sans-serif;
@@ -51,23 +51,28 @@ ul li {
 }
 
 h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
   color: #2a3b4e;
   font-weight: bold;
   text-align: center;
   justify-content: space-around;
-  padding: 180px;
+  padding: 5%;
   background-color: #f5f6f7;
   margin: 0;
-
+  line-height: 2;
+  letter-spacing: 5px;
 }
 
 h2 {
+  font-family: 'Montserrat', sans-serif;
   color: #06BC9B;
   padding: .5em;
 }
 
 h3,
 h4 {
+  font-family: 'Montserrat', sans-serif;
   color: #1ba49c;
   padding: .5em;
 }
@@ -140,10 +145,32 @@ footer {
 }
 
 button {
-  color: #33485F;
-  border: solid #33485F;
-  background-color: none;
+  color: #1ba49c;
+  line-height: 2;
+  border: solid #1ba49c;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0 1em 0 1em;
 }
+
+button:hover {
+  color: white;
+  font-weight: bold;
+  border: solid #1ba49c;
+  background-color: #1ba49c;
+}
+
+/*:nth-style pseudo-selectors*/
+
+.box p::first-letter {
+  font-family: 'Amatic+SC', sans-serif;
+  font-weight: bold;
+}
+
+.box:nth-child(even) {
+  background-color: #E8E8E8;
+}
+
 
 
 

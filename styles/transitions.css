@@ -1,7 +1,31 @@
-h1 {
-  font-size: 14px;
-  transition-property: font-size;
-  transition-duration: 4s;
-  transition-delay: 2s;
+input {
+  width: 100px;
+  transition: width .35s ease-in-out;
 }
 
+input:focus {
+  width: 250px;
+}
+
+.thumbnail:hover {
+  transform: scale(1.2);
+}
+
+h1:hover {
+  background-color: #525d68;
+  color: #f5f6f7;
+  transition: background-color 1s ease-out;
+}
+
+
+/*
+Color palette
+#06BC9B green
+#05a387 hover green
+#1ba49c dark green
+#33485F navy
+#2a3b4e dark navy
+#525d68 gray
+#f5f6f7 lighter gray
+#3c444b dark gray
+*/
