@@ -141,6 +141,8 @@ footer {
 
 button {
   color: #33485F;
+  border: solid #33485F;
+  background-color: none;
 }
 
 
