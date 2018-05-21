@@ -139,27 +139,6 @@ footer {
   color: white;
 }
 
-.button {
-  position: relative;
-  padding: 1em;
-}
-
-button {
-  color: #1ba49c;
-  line-height: 2;
-  border: solid #1ba49c;
-  background-color: white;
-  border-radius: 25px;
-  padding: 0 1em 0 1em;
-}
-
-button:hover {
-  color: white;
-  font-weight: bold;
-  border: solid #1ba49c;
-  background-color: #1ba49c;
-}
-
 /*:nth-style pseudo-selectors*/
 
 .box p::first-letter {
@@ -171,7 +150,29 @@ button:hover {
   background-color: #E8E8E8;
 }
 
+/* FORM */
 
+form {
+  margin: 1em;
+}
+
+.button {
+  position: relative;
+  padding: 1em;
+  color: #1ba49c;
+  line-height: 2;
+  border: solid #1ba49c;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0 1em 0 1em;
+}
+
+.button:hover {
+  color: white;
+  font-weight: bold;
+  border: solid #1ba49c;
+  background-color: #1ba49c;
+}
 
 
 /*

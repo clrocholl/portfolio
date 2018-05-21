@@ -24,22 +24,17 @@
     <h1>Contact</h1>
   </header>
   <section>
-    <h2>Message Me
+    <h2>Say Hello!
     </h2>
-    <p>
-      <strong>Name:</strong><br>
-      <input type="text" name="Name">
-      <br>
-      <strong>Email:</strong><br>
-      <input type="text" name="Email">
-      <br>
-      <strong>Message:</strong><br>
-      <textarea rows="6" cols="50"></textarea>
-      <br>
-    </p>
-    <div class="button">
-      <button>Submit</button>
-    </div>
+    <form>
+      <label for="name">Name</label><br>
+      <input type="text" name="name" id="name" required><br>
+      <label for="name">Email</label><br>
+      <input type="email" name="email" id="email" required><br>
+      <label for="comments">Message</label><br>
+      <textarea rows="6" cols="30" name="comments" id="comments"></textarea><br>
+      <input class="button" type="submit" name="submit" value="Submit">
+    </form>
   </section>
   <footer>
     <div class="social">
