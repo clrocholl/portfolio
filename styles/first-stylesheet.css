@@ -152,11 +152,26 @@ footer {
 
 /* FORM */
 
-form {
+form,
+fieldset {
   margin: 1em;
 }
 
-.button {
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
   position: relative;
   padding: 1em;
   color: #1ba49c;
@@ -167,13 +182,19 @@ form {
   padding: 0 1em 0 1em;
 }
 
-.button:hover {
+
+input[type=submit]:hover {
   color: white;
   font-weight: bold;
   border: solid #1ba49c;
   background-color: #1ba49c;
 }
 
+.container-form {
+  border-radius: 5px;
+  background-color: #f5f6f7;
+  padding: 20px;
+}
 
 /*
 Color palette
